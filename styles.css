@@ -1,0 +1,194 @@
+
+* {
+  margin: 0; /* Margin like layout no left over space of edge */
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fdf6ec;
+  color: #4b2e1e; /* text color */
+  line-height: 1.6; /* text gap height */
+}
+
+header {
+  background-color: #6b3e26; /* brown */
+  color: #fdf6ec; /* cream color */
+  padding: 20px 41px; /* padding (gap) bos header bread day */
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 0px; /* bottom gap */
+}
+
+header p {
+  font-size: 16px;
+  font-style: italic;
+}
+
+nav {
+  background-color: #4b2e1e; 
+  text-align: center;
+  padding: 9px 0px;
+  border: 2px solid #988961;
+  border-radius: 25px;
+}
+
+
+nav a {
+  color: #fdf6ec;
+  text-decoration: none; /* remove underline */
+  margin: 0px 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.list_home a, .p_bottom_home a{
+  text-decoration: none;
+  color: #ff8f00
+}
+
+main {
+  max-width: auto;
+  margin: 13px auto; /* Dak auto cause dg screen user p'pin na te */
+  background-color: #ffffff;
+  padding: 7px; /* expand */
+  border: 2px solid #d8b484; /* light brown border */
+  border-radius: 19px; /* curve edge */
+}
+
+h2 {
+  text-align: center;
+  color: #6b3e26;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #d8b384;
+  padding-bottom: 15px;
+}
+
+.h2_contact{
+  text-align: center;
+  color: #6b3e26;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #d8b384;
+  padding-bottom: 15px; 
+}
+
+.p_home{
+   text-align: left;
+}
+
+.p_contact{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+h3 {
+  color: #6b3e26;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.p_contact{
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+
+.product-section {
+  margin-bottom: 16px;
+  padding: 15px;
+  background-color: #fdf6ec;
+  border: 1px solid #d8b384;
+  border-radius: 6px;
+}
+
+.product-list {
+  margin-left: 25px;
+}
+
+.product-list li {
+  margin-bottom: 8px;
+}
+
+.item-grid {
+  display: flex; /*make it line*/
+  flex-wrap: wrap; /*new line for item*/
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.item-card {
+  background-color: #ffffff;
+  border: 1px solid #d8b384;
+  border-radius: 6px;
+  padding: 10px;
+  text-align: center;
+  width: 160px;
+  margin-right: 10px;
+}
+
+.item-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.item-card p {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+
+.faq-item {
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px dashed #d8b384;
+}
+
+
+.question {
+  font-weight: bold;
+  color: #6b3e26;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+
+.contact-info {
+  background-color: #fdf6ec;
+  border: 1px solid #d8b384;
+  border-radius: 6px;
+  padding: 15px;
+}
+
+.contact-info2 {
+  background-color: #fdf6ec;
+  border: 1px solid #d8b384;
+  border-radius: 6px;
+  padding: 15px;
+}
+
+.contact-info2 p{
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #6b3e26;
+  color: #fdf6ec;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  font-size: 14px;
+}
