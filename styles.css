@@ -192,3 +192,33 @@ footer {
   margin-top: 30px;
   font-size: 14px;
 }
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  nav a {
+    margin: 4px 8px;
+  }
+
+  .item-card {
+    flex: 1 1 140px;
+  }
+}
+
+/* Phones */
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  header p {
+    font-size: 0.9rem;
+  }
+
+  .item-card {
+    flex: 1 1 100%;
+    max-width: 90%;
+  }
+}
